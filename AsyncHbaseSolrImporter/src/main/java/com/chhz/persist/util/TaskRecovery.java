@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 /**
  * 线程恢复
  *
- * @author zhengd
  */
 public class TaskRecovery implements UncaughtExceptionHandler, Serializable {
 
@@ -19,15 +18,15 @@ public class TaskRecovery implements UncaughtExceptionHandler, Serializable {
     private final Runnable task;
 
     public TaskRecovery(Runnable task) {
-	this.task = task;
+        this.task = task;
     }
 
     @Override
     public void uncaughtException(Thread thread, Throwable thrwbl) {
-	logger.error(thread.getName(), thrwbl);
-	Thread newThread = new Thread(task, thread.getName());
-	newThread.setUncaughtExceptionHandler(this);
-	newThread.start();
+        logger.error(thread.getName(), thrwbl);
+        Thread newThread = new Thread(task, thread.getName());
+        newThread.setUncaughtExceptionHandler(this);
+        newThread.start();
     }
 
 }

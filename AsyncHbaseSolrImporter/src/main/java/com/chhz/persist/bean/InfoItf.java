@@ -8,9 +8,7 @@ package com.chhz.persist.bean;
 import java.io.Serializable;
 import org.apache.hadoop.hbase.util.Bytes;
 
-/**
- * @author zhengd
- */
+
 public interface InfoItf extends Serializable {
 
 //    public static final String SPLIT_CHAR = "#";

@@ -5,6 +5,8 @@
  */
 package com.chhz.persist.solr.thread;
 
+import com.chhz.persist.bean.InfoItf;
+import com.chhz.persist.importer.ImporterConnection;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Collection;
@@ -13,13 +15,7 @@ import java.util.concurrent.BlockingQueue;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.chhz.persist.bean.InfoItf;
-import com.chhz.persist.importer.ImporterConnection;
 
-/**
- *
- * @author Run
- */
 public class UpdateSolrThread implements Runnable, Serializable {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UpdateSolrThread.class);

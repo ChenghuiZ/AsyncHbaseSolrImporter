@@ -10,10 +10,7 @@ import java.util.List;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Row;
 
-/**
- *
- * @author Run
- */
+
 public class AggInfo {
 
     private InfoItf bean;

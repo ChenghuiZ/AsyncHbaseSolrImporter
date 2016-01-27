@@ -27,10 +27,6 @@ import org.apache.hadoop.hbase.client.Row;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- *
- * @author Run
- */
 public class AsyncInfoImporterImpl implements InfoImporterItf {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AsyncInfoImporterImpl.class);

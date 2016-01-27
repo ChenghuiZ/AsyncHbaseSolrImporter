@@ -16,10 +16,7 @@ import org.apache.solr.client.solrj.SolrServerException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- *
- * @author Run
- */
+
 public class AddSolrThread implements Runnable, Serializable {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AddSolrThread.class);

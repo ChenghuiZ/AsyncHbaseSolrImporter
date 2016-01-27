@@ -5,11 +5,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @param <K>
- * @param <T>
- * @author ZhongChenghui
- */
+
 public class MapList<K, T> extends HashMap<K, List<T>> {
 
     private static final long serialVersionUID = 1L;

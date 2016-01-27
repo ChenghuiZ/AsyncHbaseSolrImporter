@@ -5,11 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @param <K>
- * @param <T>
- * @author ZhongChenghui
- */
+
 public class ConcurrentMapList<K, T> extends ConcurrentHashMap<K, List<T>> {
 
     private static final long serialVersionUID = 1L;

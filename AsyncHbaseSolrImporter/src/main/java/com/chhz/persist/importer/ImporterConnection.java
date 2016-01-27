@@ -13,10 +13,7 @@ import java.util.concurrent.ConcurrentMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- *
- * @author Run
- */
+
 public class ImporterConnection {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ImporterConnection.class);

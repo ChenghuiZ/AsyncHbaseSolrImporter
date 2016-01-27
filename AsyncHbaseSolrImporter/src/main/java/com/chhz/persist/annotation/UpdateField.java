@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
 /**
  * 更新字段注解
  *
- * @author 成辉
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
