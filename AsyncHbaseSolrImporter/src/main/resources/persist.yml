@@ -1,0 +1,7 @@
+solr.zkHosts: "172.16.5.130:2181,172.16.5.131:2181,172.16.5.132:2181"
+solr.commitWithinMs: 300000
+solrAdd.maxQueueCount: 2
+solrUpdate.maxQueueCount: 2
+solrUpdate.maxCommitTime: 60000
+hbase.zkHosts: "172.16.5.130:2181,172.16.5.131:2181,172.16.5.132:2181"
+hbase.maxCacheCount: 2
